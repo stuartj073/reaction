@@ -4,8 +4,9 @@ window.addEventListener('DomContentLoaded', (event)=>{
 
 const button = document.getElementById('load');
 
-function clickMe() {
-    button.addEventListener('click', function(){
-        console.log('Hi');
-    });
+
+function clickMe(){
+    console.log('Hi');
 }
+
+button.addEventListener('click', clickMe)
